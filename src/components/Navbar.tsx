@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
+import Logo from './Assets/Logo.png';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,8 +23,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-bold bg-gradient-to-r from-green-300 via-green-400 to-green-500 text-transparent bg-clip-text">
-              Irudium
+              <img src= { Logo } alt="Logo" className='h-10 w-auto' /> 
+            <span className="text-2xl font-bold bg-gradient-to-r from-green-300 via-green-400 to-green-500 text-transparent bg-clip-text ml-3">
+            Irudium
             </span>
           </Link>
 

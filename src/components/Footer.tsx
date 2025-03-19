@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
+import Logo from '../components/Assets/Logo.png';
 
 const Footer = () => {
   return (
     <footer className="bg-black/80 backdrop-blur-sm text-white py-12 mt-auto">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="space-y-4">
-          <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-green-300 to-green-500 text-transparent bg-clip-text">
+          <Link to="/" className="flex items-center text-2xl font-bold bg-gradient-to-r from-green-300 to-green-500 text-transparent bg-clip-text">
+          <img src= { Logo } alt="Logo" className='h-10 w-auto mr-3' /> 
             Irudium
           </Link>
           <p className="text-gray-400">Transforming ideas into digital excellence</p>
