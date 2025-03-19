@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">Email</h3>
-                  <p className="text-gray-400">info@irudium.com</p>
+                  <p className="text-gray-400">irudium.in@gmail.com</p>
                 </div>
               </div>
 
@@ -43,7 +43,17 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">Phone</h3>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+91 7904 378 166</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="bg-green-500/10 p-3 rounded-lg">
+                  <Phone className="w-6 h-6 text-green-400" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-white">Phone</h3>
+                  <p className="text-gray-400">+91 6384 991 170</p>
                 </div>
               </div>
 
@@ -53,7 +63,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">Location</h3>
-                  <p className="text-gray-400">123 Tech Street, Digital City, 12345</p>
+                  <p className="text-gray-400">Guziliyamparai, Dindigul, 624706</p>
                 </div>
               </div>
             </motion.div>

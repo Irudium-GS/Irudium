@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import { Users, Trophy, Target, Heart, Github, Linkedin, Twitter, Mail } from 'lucide-react';
-
+import Gopi from '../components/Assets/Gopi.jpg';
+import Sudharsan from '../components/Assets/Sudharsan.jpg';
+import Ruby from '../components/Assets/Ruby.jpeg';
 const About = () => {
   return (
     <div className="pt-20">
@@ -77,9 +79,9 @@ const About = () => {
 
           <div className="space-y-32">
             <TeamMember
-              name="John Doe"
+              name="G Sudharsan"
               role="Founder & CEO"
-              image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              image= {Sudharsan}
               description="John brings over 15 years of experience in software development and business leadership. His vision drives Irudium's innovation and growth strategy. With a background in both technical development and business management, he ensures that our solutions are not only technically excellent but also aligned with our clients' business goals."
               imageLeft={true}
               socials={{
@@ -91,9 +93,9 @@ const About = () => {
             />
 
             <TeamMember
-              name="Jane Smith"
-              role="Lead Designer"
-              image="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              name="GS"
+              role="Founder & CTO"
+              image= {Gopi}
               description="Jane is an award-winning designer with a passion for creating beautiful and functional user experiences. Her expertise in UI/UX design has helped shape numerous successful digital products. She leads our design team with a focus on user-centered design principles and innovative solutions that exceed client expectations."
               imageLeft={false}
               socials={{
@@ -105,9 +107,9 @@ const About = () => {
             />
 
             <TeamMember
-              name="Mike Johnson"
-              role="Tech Lead"
-              image="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              name="Ruby Shankar"
+              role="Junior Developer"
+              image= {Ruby}
               description="Mike is our technical mastermind, with deep expertise in full-stack development and system architecture. He leads our development team in creating robust, scalable solutions using cutting-edge technologies. His approach to problem-solving and technical innovation has been instrumental in delivering complex projects successfully."
               imageLeft={true}
               socials={{
@@ -221,7 +223,7 @@ const TeamMember = ({
         <img 
           src={image} 
           alt={name} 
-          className="w-full h-[600px] object-cover object-top rounded-xl"
+          className="w-100 h-[600px]   rounded-xl"
         />
       </motion.div>
     </motion.div>

@@ -14,8 +14,8 @@ const Footer = () => {
           <div className="flex space-x-4">
             <a href="#" className="hover:text-green-400"><Facebook className="w-5 h-5" /></a>
             <a href="#" className="hover:text-green-400"><Twitter className="w-5 h-5" /></a>
-            <a href="#" className="hover:text-green-400"><Instagram className="w-5 h-5" /></a>
-            <a href="#" className="hover:text-green-400"><Linkedin className="w-5 h-5" /></a>
+            <a href="https://www.instagram.com/irudium.gs?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="hover:text-green-400"><Instagram className="w-5 h-5" /></a>
+            <a href="https://www.linkedin.com/company/irudium/ " className="hover:text-green-400"><Linkedin className="w-5 h-5" /></a>
           </div>
         </div>
 
